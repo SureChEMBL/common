@@ -23,7 +23,7 @@ XS-Go-Import-Path: github.com/prometheus/common
 Package: golang-github-prometheus-common-dev
 Architecture: all
 Depends: golang-github-julienschmidt-httprouter-dev,
-         golang-github-prometheus-client-golang-dev,
+         golang-github-prometheus-client-golang-dev | golang-prometheus-client-dev,
          golang-github-prometheus-client-model-dev,
          golang-github-sirupsen-logrus-dev (>= 1.0.2),
          golang-golang-x-net-dev,
