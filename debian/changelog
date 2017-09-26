@@ -1,3 +1,10 @@
+golang-github-prometheus-common (0+git20170707.3e6a763-2surechembl2) unstable; urgency=medium
+
+  * golang-any >= 1.7 in build deps (new functionality from net/http is
+    required).
+
+ -- Yury Zavarin <yzavarin@ebi.ac.uk>  Tue, 26 Sep 2017 17:04:01 +0100
+
 golang-github-prometheus-common (0+git20170707.3e6a763-2surechembl1) unstable; urgency=medium
 
   * Added golang-prometheus-client-dev as alternative install dependency to
