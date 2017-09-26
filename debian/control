@@ -6,7 +6,7 @@ Testsuite: autopkgtest-pkg-go
 Priority: extra
 Build-Depends: debhelper (>= 9.0.0),
                dh-golang (>= 1.17~),
-               golang-any,
+               golang-any (>= 1.7),
                golang-github-julienschmidt-httprouter-dev,
                golang-github-prometheus-client-model-dev,
                golang-github-sirupsen-logrus-dev (>= 1.0.2),
