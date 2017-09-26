@@ -1,4 +1,12 @@
-golang-github-prometheus-common (0+git20170707.3e6a763-2) UNRELEASED; urgency=medium
+golang-github-prometheus-common (0+git20170707.3e6a763-2surechembl1) unstable; urgency=medium
+
+  * Added golang-prometheus-client-dev as alternative install dependency to
+    golang-github-prometheus-client-golang-dev to make circular dependency
+    weaker.
+
+ -- Yury Zavarin <yzavarin@ebi.ac.uk>  Tue, 26 Sep 2017 16:41:17 +0100
+
+golang-github-prometheus-common (0+git20170707.3e6a763-2) unstable; urgency=medium
 
   * Add missing version in logrus dependency.
   * debian/control: Update Standards-Version (no changes).
