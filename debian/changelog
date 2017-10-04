@@ -1,3 +1,10 @@
+golang-github-prometheus-common (0+git20170731.61f87aa-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Added golang-gopkg-alecthomas-kingpin.v2-dev as build dependency.
+
+ -- Yury Zavarin <yzavarin@ebi.ac.uk>  Wed, 04 Oct 2017 14:02:09 +0100
+
 golang-github-prometheus-common (0+git20170707.3e6a763-2surechembl2) unstable; urgency=medium
 
   * golang-any >= 1.7 in build deps (new functionality from net/http is
